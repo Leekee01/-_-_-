@@ -58,10 +58,64 @@ nav > ul > li > a {
 nav > ul > li:hover > a {
   background: #f96167;
 }
+.sub {
+  display: none;
+}
+.sub li a {
+  display: block;
+  background: #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.sub li a:hover {
+  background: #3d155f;
+  color: #fff;
+}
 .slide {
   height: 300px;
   background: #40b0f9;
 }
+.slide ul {
+  display: flex;
+  width: 3600px;
+}
+
+.slide ul li {
+  width: 1200px;
+  height: 300px;
+  position: relative;
+}
+.slide ul li a {
+  display: block;
+  height: 100%;
+  background: #fcc;
+}
+.slide ul li .s1 {
+  background: url(../images/s1.jpg) no-repeat center/cover;
+}
+.slide ul li .s2 {
+  background: url(../images/s2.jpg) no-repeat center/cover;
+}
+.slide ul li .s3 {
+  background: url(../images/s3.jpg) no-repeat center/cover;
+}
+.slide ul li h2 {
+  background: rgba(61, 21, 95, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 28px;
+  color: #fff;
+}
+.slide ul li h2 span {
+  color: #f96167;
+}
+
 .contents {
   height: 200px;
   background: #ff884d;
